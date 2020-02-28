@@ -11,7 +11,7 @@ export default function App() {
     e.preventDefault();
     let validate = Number(age);
     if (!validate) {
-      setInfo("You must input and age.");
+      setInfo("You must input a number for the Age input.");
     } else {
       setInfo(
         `My name is ${name} and I am ${age} years old. I would like you to know that ${comment}`

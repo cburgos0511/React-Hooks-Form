@@ -10,7 +10,7 @@
 form {
   padding-top: 10px;
   border-radius: 5px;
-  width: 80%;
+  width: 40%;
   margin: 50px auto;
   text-align: left;
   box-shadow: 10px 10px 1000px #cccccc;
@@ -20,7 +20,7 @@ form {
 }
 
 .form-input input {
-  height: 25px;
+  height: 35px;
   width: 100%;
   border: #cccccc 1px solid;
   outline: none;
@@ -38,7 +38,7 @@ form {
 button {
   width: 100%;
   border-radius: 5px;
-  height: 30px;
+  height: 45px;
   margin: 20px auto;
   background: rgb(105, 214, 129);
   color: white;
@@ -64,4 +64,6 @@ button {
 
 .msg {
   font-weight: 300;
+  width: 50%;
+  margin: auto;
 }
